@@ -44,10 +44,8 @@ html, body {padding:0; margin:0; background: #eee;;
 #font {
 	margin: auto;
 	height: 80%;
-	width: 80%;
+	width: 100%;
 	position: absolute;
-	left: 10%;
-	background: yellow;
 }
 
 #name {
@@ -111,3 +109,11 @@ table {
 	text-align: center;
 	font-size: 15px;
 }
+
+
+
+
+
+
+
+

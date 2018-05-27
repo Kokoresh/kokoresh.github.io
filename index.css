@@ -13,7 +13,8 @@ html, body {padding:0; margin:0; background: #eee;;
 	height: 150px;
 	width: 100%;
 	background: #ac86d9;
-}
+	z-index: 1; 
+	}
 
 #but {
 	display: inline-block;
@@ -37,7 +38,6 @@ html, body {padding:0; margin:0; background: #eee;;
 }
 #but:active {
   background: #b1d9a5;
-  padding: 1px 0 0 1px;
 }
 
 
@@ -65,30 +65,38 @@ html, body {padding:0; margin:0; background: #eee;;
 #persons {
 	border-spacing: 20px 5px;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 70px;
 }
 #misha {
 	height: 198px;
 	width: 198px;
 	background: url(misha.png);
+	border: 2px solid #333;
+	border-radius: 150px;
 }
 
 #deniel {
 	height: 198px;
 	width: 198px;
 	background: url(daniel.png);
+	border: 2px solid #333;
+	border-radius: 150px;
 }
 
 #andrew {
 	height: 198px;
 	width: 198px;
 	background: url(andrew.png);
+	border: 2px solid #333;
+	border-radius: 150px;
 }
 
 #stas {
 	height: 198px;
 	width: 198px;
 	background: url(stas.png);
+	border: 2px solid #333;
+	border-radius: 150px;
 }
 
 table {
@@ -97,10 +105,6 @@ table {
 	text-align: center;
 	font-size: 15px;
 }
-
-
-
-
 
 
 

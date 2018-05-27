@@ -25,9 +25,9 @@ html, body {padding:0; margin:0; background: #eee;;
 	background: #ac86d9;
 	border-radius: 30px;
 	border: 0px solid black;
-	top: 50%;
-	position: absolute;
-	left: 25%;
+	position: relative;
+	margin-top: 50px;
+	vertical-align: 50px;
 	font-family: "Open Sans" regular;
 	font-size: 25px;
 	outline: none;
@@ -51,7 +51,7 @@ html, body {padding:0; margin:0; background: #eee;;
 
 #name {
 	margin: auto;
-	font-family: fantasy;	
+	font-family: 'Open Sans', sans-serif;	
 	height: 200px;
 	width: 50%;
 	position: absolute;
@@ -60,6 +60,10 @@ html, body {padding:0; margin:0; background: #eee;;
 	text-align: right;
 	/*margin-top: 10px;*/
 	font-size: 50px;
+} 
+#name pre {
+	font: 400 50px/1.2 'Merienda One', Helvetica, sans-serif;
+	color: #eee;	
 }
 
 #persons {
@@ -73,7 +77,8 @@ html, body {padding:0; margin:0; background: #eee;;
 	background: url(misha.png);
 	border: 2px solid #333;
 	border-radius: 150px;
-}
+	position: relative;
+	}
 
 #deniel {
 	height: 198px;

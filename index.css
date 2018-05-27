@@ -44,9 +44,9 @@ html, body {padding:0; margin:0; background: #eee;;
 #font {
 	margin: auto;
 	height: 80%;
-	width: 60%;
+	width: 80%;
 	position: absolute;
-	left: 20%;
+	left: 10%;
 }
 
 #name {
